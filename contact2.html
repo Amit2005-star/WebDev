@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My College Website</title>
+        <link rel="stylesheet" href="wa.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+            <a href="WebAttempt2.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="WebAttempt2.html">HOME</a></li>
+                    <li><a href="about2.html">ABOUT</a></li>
+                    <li><a href="course2.html">COURSE</a></li>
+                    <li><a href="blog2.html">BLOG</a></li>
+                    <li><a href="admission2.html">ADMISSION</a></li>
+                    <li><a href="contact2.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+           </nav>
+           <h1>Contact Us</h1>
+</section>
+<!------------contact us------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7438.042209878925!2d81.34711462423695!3d21.231011676866554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2922b3f507ac99%3A0xb276f7d1a3d9c05!2sRungta%20College%20Of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1753441290189!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>Rungta College Of Engineering And Technology</h5>
+                <p>Kohka-Kurud Road, Bhilai, Chhattisgarh 490024</p>
+            </span>
+        </div>
+    <div>
+    <i class="fa fa-phone"></i>
+            <span>
+                <h5>+91 2357655546</h5>
+                <p>Monday to Saturday, 10AM to 5PM</p>
+            </span>
+    </div>
+    <div>
+    <i class="fa-solid fa-envelope"></i>
+            <span>
+                <h5>info@rungtacollege.com</h5>
+                <p>Email us your query</p>
+            </span>
+    </div>
+    </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email Address" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!-----------footer------------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to providing quality education and fostering a supportive learning environment.Our college provided you with the skills and knowledge I needed to succeed in my career.<br>We are committed to providing quality education and fostering a supportive learning environment.</p>
+   <div class="icons">
+   <a href="https://www.facebook.com/rungtacolleges/" target="_blank"><i class="fab fa-facebook" style="color:#1877f3;"></i></a>
+   <a href="https://x.com/rungtagroup" target="_blank"><i class="fab fa-x-twitter" style="color:#000000;"></i></a>
+   <a href="https://www.instagram.com/sanjayrungtacolleges/?hl=en" target="_blank"><i class="fab fa-instagram" style="color:#e4405f;"></i></a>
+   <a href="https://in.linkedin.com/company/sanjay-rungta-group-of-institutions" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
+</div>
+</section>
+
+<!------javascript------>
+<script>
+   var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+         navlinks.style.right = "0";
+    }
+    function hideMenu(){
+         navlinks.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>
